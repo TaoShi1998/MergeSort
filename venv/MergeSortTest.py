@@ -17,7 +17,8 @@ def mergesort(unsorted):
     return result
 
 
-print(mergesort([12, -3, 5, 27, 19, 2, 10, 15, 90, 1]))
+print("排序前：12, -3, 5, 27, 19, 2, 10, 15, 90, 1")
+print("排序后："+mergesort([12, -3, 5, 27, 19, 2, 10, 15, 90, 1]))
 
 
 
